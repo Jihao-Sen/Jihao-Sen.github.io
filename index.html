@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>无题</title>
-    <style>h1{color:blue;}</style>
+    <title>我的个人主页</title>
+    <style>
+        .main{width:100%;}
+        .top,.bottom,.part{width:100%;}
+        .main{height:1100px;}
+        .top{height:100px;}
+        .part{height:250px;}
+        .top,.part{text-align:center;}
+        .top-t,.part-t{position:relative;top:50%;}
+        body{background-image: url(./images/bak1.jpg);background-size:contain;}
+        .top-t{font-size: 25px;font-weight: 800;color:#E81A8D;}
+        a{font-size: 20px;font-weight: 500;text-decoration: none;}
+        #p1{color:#18E86A;}
+        #p2{color:#FF34F6;}
+        #p3{color:#B055E8;}
+        #p4{color:#17A7FF;}
+        a:hover{font-size: 25px;font-weight: 600;text-decoration: none;color:#E8CA27;}
+        button{background-color: aliceblue;border-color:#51B0AE;border-radius: 30%;}
+    </style>
 </head>
 <body>
-    <h1>你好尚嘉z，我是你哥哈哈哈</h1>
+    <div class="main">
+    <div class="top"><div class="top-t">Welcome to my page,friend!</div></div>
+        <div class="bottom">
+            <div class="part"><div class="part-t"><button><a href="music.html"id="p1">My music</a></button></div></div>
+            <div class="part"><div class="part-t"><button><a href="hobbies.html"id="p2">My hobbies</a></button></div></div>
+            <div class="part"><div class="part-t"><button><a href="poems.html"id="p3">My poems</a></button></div></div> 
+            <div class="part"><div class="part-t"><button><a href="story.html"id="p4">My story</a></button></div></div>
+        </div>   
+    </div>
 </body>
 </html>
